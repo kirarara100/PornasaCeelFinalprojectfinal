@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="about.html" class="nav-link">About me</a>
+    </nav>
+  </header>
+
+  <main class="home">
+    <!-- Carousel: each slide is a div that holds an img -->
+    <section class="carousel" id="carousel" aria-label="Featured work">
+      <button class="carousel-btn prev" aria-label="Previous slide">&#10094;</button>
+
+      <div class="carousel-track">
+        <div class="slide"><img src="images/placeholder.svg" alt="Slide 1"></div>
+        <div class="slide"><img src="images/placeholder.svg" alt="Slide 2"></div>
+        <div class="slide"><img src="images/placeholder.svg" alt="Slide 3"></div>
+        <div class="slide"><img src="images/placeholder.svg" alt="Slide 4"></div>
+        <div class="slide"><img src="images/placeholder.svg" alt="Slide 5"></div>
+      </div>
+
+      <button class="carousel-btn next" aria-label="Next slide">&#10095;</button>
+      <div class="carousel-dots" id="carouselDots"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">&copy; All rights reserved 2026</footer>
+  <script src="script.js"></script>
+</body>
+</html>

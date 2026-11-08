@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Certificates | My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About me</a>
+    </nav>
+  </header>
+
+  <main class="certs">
+    <!-- Cards are generated from the list in script.js -->
+    <div class="cert-grid" id="certGrid"></div>
+  </main>
+
+  <!-- Cert view (modal) -->
+  <div class="modal" id="certModal" hidden>
+    <div class="modal-box" role="dialog" aria-modal="true" aria-label="Certificate preview">
+      <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+      <img id="modalImg" src="" alt="">
+      <a class="btn btn-download" id="modalDownload" href="#" download>download</a>
+    </div>
+  </div>
+
+  <footer class="site-footer">&copy; All rights reserved 2026</footer>
+  <script src="script.js"></script>
+</body>
+</html>
